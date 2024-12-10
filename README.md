@@ -25,16 +25,18 @@ This bash script automates the process of injecting a custom payload into an APK
 7. **APK Rebuilding**
    - The modified APK is rebuilt with the injected payload and saved to a new file.
    
-## Usage
+## Installation
 
-1. Clone the repository or download the script to your local machine.
-   
-2. Install `apktool` if you don’t have it:
+1. Clone the repository:
    ```bash
-   sudo apt install apktool
+   git clone https://github.com/LynxAlcyoneus/ApkPLD_inserter.git
+2. Run it using bash command:
+   ```bash
+   bash ./ScanVul.sh
+OR 
+3. Give permission for execution:
+  ```bash
+   chmod +x ./PLDInserter.sh
+   ./PLDInserter.sh
 
    ```bash
-   chmod +x inject_payload.sh
-
-   ```bash
-   ./inject_payload.sh
