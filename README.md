@@ -32,7 +32,9 @@ This bash script automates the process of injecting a custom payload into an APK
 2. Install `apktool` if you don’t have it:
    ```bash
    sudo apt install apktool
+
    ```bash
    chmod +x inject_payload.sh
+
    ```bash
    ./inject_payload.sh
