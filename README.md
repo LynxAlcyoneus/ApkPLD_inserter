@@ -30,13 +30,9 @@ This bash script automates the process of injecting a custom payload into an APK
 1. Clone the repository:
    ```bash
    git clone https://github.com/LynxAlcyoneus/ApkPLD_inserter.git
-2. Run it using bash command:
+2. Give permission for execution and Run it using bash command:
    ```bash
-   bash ./ScanVul.sh
-OR 
-3. Give permission for execution:
-  ```bash
    chmod +x ./PLDInserter.sh
-   ./PLDInserter.sh
-
+   ```
    ```bash
+   ./PLDInserter.sh
